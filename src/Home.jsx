@@ -7,7 +7,7 @@ function Home() {
     <Container>
       <header>
         <img src="/images/logo.svg" alt="" />
-        <h2>Best Online Repair Consultancy</h2>
+        <h2>GEEK ONLINE CARE</h2>
       </header>
       <section className="services-available">
         <div className="content">
@@ -60,7 +60,7 @@ function Home() {
         </div>
       </section>
       <footer>
-        <p>&copy;Online Repair Store - 2023 (Appointement Assistance)</p>
+        <p>&copy;Online Geek Repair - 2023 (Appointement Assistance)</p>
       </footer>
     </Container>
   );
@@ -114,18 +114,27 @@ const Container = styled.div`
       h3 {
         font-size: 36px;
         font-weight: 500;
+        @media (min-width: 320px) and (max-width: 599px) {
+          font-size: 30px;
+        }
       }
       h4 {
         color: white;
         margin-top: 0.5cm;
         font-size: 20px;
         font-weight: 100;
+        @media (min-width: 320px) and (max-width: 599px) {
+          font-size: 18px;
+        }
       }
       ul {
         margin-left: 1cm;
         li {
           font-size: 24px;
           font-weight: 100;
+          @media (min-width: 320px) and (max-width: 599px) {
+            font-size: 18px;
+          }
         }
       }
       button {
